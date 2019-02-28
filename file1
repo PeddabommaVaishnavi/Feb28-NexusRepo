@@ -2,5 +2,6 @@ echo "new file : file1"
 a=10
 b=3
 echo "adding a and b"
-c=a+b
+c=expr $a+$b
+echo "sum of a and b is "
 echo $c
